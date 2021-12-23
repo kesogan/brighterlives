@@ -1,0 +1,72 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito',
+sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+// $yellow: #ffbe00;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$info: #17a2b8;
+
+
+
+
+$enable-shadows: true;
+$enable-transitions: true;
+$enable-hover-media-query: true;
+$enable-caret: true;
+$enable-responsive-font-sizes: true;
+$enable-pointer-cursor-for-buttons: true;
+$enable-validation-icons: true;
+
+
+.edit-layout-modal .modal-dialog {
+    margin: 0;
+    margin-left: auto;
+    margin-right: 0;
+    z-index: 100;
+}
+
+.edit-layout-modal .modal-dialog .modal-content {
+    border-radius: 0;
+    border: none;
+    min-height: 100vh;
+}
+
+.edit-layout-modal .modal-dialog .modal-content .modal-header,
+.edit-layout-modal .modal-dialog .modal-content .modal-footer {
+    padding: 15px 30px;
+}
+
+.edit-layout-modal .modal-dialog .modal-content .modal-body {
+    padding: 30px;
+}
+
+@media only screen and (min-width: 560px) {
+    .edit-layout-modal .modal-dialog {
+        max-width: 50%;
+    }
+}
+
+.edit-layout-modal.fade .modal-dialog {
+    -webkit-transform: translate(25%, 0);
+    transform: translate(25%, 0) !important;
+}
+
+.edit-layout-modal.show .modal-dialog {
+    -webkit-transform: translate(0, 0) !important;
+    transform: translate(0, 0) !important;
+}

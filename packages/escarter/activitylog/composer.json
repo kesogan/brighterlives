@@ -1,0 +1,39 @@
+{
+    "name": "escarter/activitylog",
+    "description": "Logging Application Activities in a Database",
+    "type": "laravel-plugin",
+    "license": "MIT",
+    "authors": [{
+        "name": "Mbutuh Escarter Brieno",
+        "email": "brienom@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.0",
+        "illuminate/contracts": "^5.1",
+        "illuminate/support": "^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\Escarter\\Activitylog\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Escarter\\Activitylog\\ActivitylogServiceProvider"
+            ],
+            "aliases": {
+                "Activitylog": "Escarter\\Activitylog\\Facade\\"
+            }
+        }
+
+    }
+}

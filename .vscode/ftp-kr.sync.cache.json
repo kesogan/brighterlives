@@ -1,0 +1,12 @@
+{
+  "sftp://10.66.38.215:22@brightertest": {
+    "var": {
+      "www": {
+        "html": {
+          "test.brighterlives.cm": {}
+        }
+      }
+    }
+  },
+  "$version": 1
+}
