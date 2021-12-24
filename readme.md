@@ -1,4 +1,4 @@
-# BrighterLives ;)
+# BrighterLives :)
 
 This is a project for the 21 days of yellocare initiative to provide a platform where association can present and showcase what they do!
 
@@ -7,7 +7,7 @@ This is a project for the 21 days of yellocare initiative to provide a platform 
 Perform the operations below.
 
 ```
-git clone https://gitlab.com/21days-project-team/brighterlives.git
+gh repo clone kesogan/brighterlives
 cd brighterlives
 composer install
 composer du
